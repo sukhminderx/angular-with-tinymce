@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-tinymce';
+  dataModel: any;
+
+  handleEvent (event) {
+    console.log(event)
+    console.log(this.dataModel)
+  }
 }
